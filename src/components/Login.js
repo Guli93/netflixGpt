@@ -4,6 +4,7 @@ import { validate } from "../utils/Validation";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
+import { bg } from "../utils/constants";
 
 
 const Login = () => {
@@ -32,7 +33,7 @@ const Login = () => {
        <div>
          <Header/>
          <div className="absolute">
-          <img className="" src="https://assets.nflxext.com/ffe/siteui/vlv3/74d734ca-0eab-4cd9-871f-bca01823d872/web/IN-en-20241021-TRIFECTA-perspective_2277eb50-9da3-4fdf-adbe-74db0e9ee2cf_large.jpg" alt="BG"/>
+          <img className="" src={bg} alt="BG"/>
 
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
          </div>   
